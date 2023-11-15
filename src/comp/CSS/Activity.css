@@ -1,0 +1,294 @@
+/* ---------- ActivityHome ---------- */
+.actArticle {
+  display: block;
+  margin-top: 20px;
+  /* background-color: aqua; */
+}
+.actTitle {
+  font-family: 'JalnanGothic';
+  font-weight: 400;
+  font-size: 5rem;
+  text-align: center;
+  color: black;
+}
+.actHr {
+  width: 25rem;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-top: 0.1rem solid silver;
+  color: inherit;
+}
+.actNav {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.actBtn {
+  background-color: transparent;
+  display: inline-block;
+  width: 30rem;
+  height: 24rem;
+  margin: 0.7rem;
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: 5px solid silver;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+.actBtn:hover {
+  box-sizing: border-box;
+  border: 5px solid orange ;
+}
+.actBtn > .actImg {
+  width: 100%;
+  height: 75%;
+  pointer-events: none;
+}
+.actBtn > .actHr {
+  width: 100%;
+}
+
+/* ---------- Visiting ---------- */
+.visitingArticle {
+  display: block;
+  width: 95rem;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+}
+.visitingImg {
+  display: inline-block;
+  width: 35rem;
+  height: 100%;
+  vertical-align: top;
+  /* background-color: aquamarine; */
+}
+.visitingSubImg {
+  width: 100%;
+}
+.visitingProj {
+  display: inline-block;
+  width: 57rem;
+  padding-left: 2.5rem;
+  /* background-color: blueviolet; */
+}
+.visitingTitle {
+  font-family: 'JalnanGothic';
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+.visitingHr {
+  border-top: 0.2rem solid silver;
+  width: 28rem;
+  float: left;
+  margin-top: -0.5rem;
+}
+.visitingSub {
+  display: block;
+  width: 57rem;
+  /* height: auto; */
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  /* background-color: bisque; */
+}
+.visitingCont {
+  display: inline-block;
+  width: 10rem;
+  /* background-color: gray; */
+  vertical-align: top;
+}
+.actList {
+  display: inline-block;
+  width: 47rem;
+  /* background-color: skyblue; */
+}
+.visitingDate {
+  display: inline-block;
+  width: 44.5rem;
+  padding-left: 2.5rem;
+  /* background-color: skyblue; */
+}
+.actList {
+  display: inline-block;
+  width: 50rem;
+  /* background-color: blue; */
+}
+.actLi {
+  /* background-color: skyblue; */
+  padding: 7px;
+}
+.otherAct {
+  display: inline-block;
+  width: 23rem;
+  height: 4rem;
+  margin: 0.7rem;
+  font-size: 2rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  border: 3px solid silver;
+  background-color: aliceblue;
+  cursor: pointer;
+}
+.otherAct:hover {
+  border: 3px solid orange;
+}
+.otherLink {
+  text-decoration: none;
+  color: black;
+}
+
+/* ---------- club ---------- */
+.clubArticle {
+  display: block;
+  width: 95rem;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+}
+.clubImg {
+  display: inline-block;
+  width: 35rem;
+  height: 100%;
+  vertical-align: top;
+  margin-top: -1rem;
+  margin-left: -5rem;
+  margin-right: -5rem;
+  /* background-color: aquamarine; */
+}
+.clubSubImg {
+  width: 100%;
+}
+.clubProj {
+  display: inline-block;
+  width: 65rem;
+  padding-left: 2.5rem;
+  /* background-color: blueviolet; */
+}
+.clubTitle {
+  font-family: 'JalnanGothic';
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+.clubHr {
+  border-top: 0.2rem solid silver;
+  width: 28rem;
+  float: left;
+  margin-top: -0.5rem;
+}
+.clubSub {
+  display: block;
+  width: 65rem;
+  /* height: auto; */
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  /* background-color: bisque; */
+}
+.clubCont {
+  display: inline-block;
+  width: 10rem;
+  /* background-color: gray; */
+  vertical-align: top;
+}
+.clubList {
+  display: inline-block;
+  width: 55rem;
+  /* background-color: skyblue; */
+}
+.clubDate {
+  display: inline-block;
+  width: 52.5rem;
+  padding-left: 2.5rem;
+  /* background-color: skyblue; */
+}
+.actList2 {
+  display: inline-block;
+  width: 52rem;
+  /* background-color: blue; */
+}
+.actLi2 {
+  /* background-color: skyblue; */
+  padding: 7px;
+}
+
+/* ---------- bootcamp ---------- */
+.bootArticle {
+  display: block;
+  width: 95rem;
+  margin-top: 6rem;
+  margin-bottom: 3rem;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+}
+.bootImg {
+  display: inline-block;
+  width: 35rem;
+  height: 100%;
+  vertical-align: top;
+  margin-top: -3rem;
+  margin-left: -5rem;
+  margin-right: -5.5rem;
+  /* background-color: aquamarine; */
+}
+.bootSubImg {
+  width: 100%;
+}
+.bootProj {
+  display: inline-block;
+  width: 65rem;
+  padding-left: 2.5rem;
+  /* background-color: blueviolet; */
+}
+.bootTitle {
+  font-family: 'JalnanGothic';
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+.bootHr {
+  border-top: 0.2rem solid silver;
+  width: 28rem;
+  float: left;
+  margin-top: -0.5rem;
+}
+.bootSub {
+  display: block;
+  width: 65rem;
+  /* height: auto; */
+  font-size: 2.3rem;
+  margin-bottom: 2rem;
+  /* background-color: bisque; */
+}
+.bootCont {
+  display: inline-block;
+  width: 10rem;
+  /* background-color: gray; */
+  vertical-align: top;
+}
+.bootList {
+  display: inline-block;
+  width: 55rem;
+  /* background-color: skyblue; */
+}
+.bootDate {
+  display: inline-block;
+  width: 52.5rem;
+  padding-left: 2.5rem;
+  /* background-color: skyblue; */
+}
+.actList3 {
+  display: inline-block;
+  width: 52rem;
+  /* background-color: blue; */
+}
+.actLi3 {
+  /* background-color: skyblue; */
+  padding: 7px;
+}

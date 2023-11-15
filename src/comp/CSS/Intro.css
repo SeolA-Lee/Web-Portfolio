@@ -1,0 +1,276 @@
+a#link:hover, a#link:hover {
+  color: orange;
+  font-size: 2.4rem;
+}
+
+/* ---------- IntroHome ---------- */
+.introArticle {
+  display: block;
+  width: 90rem;
+  margin-top: 60px;
+  justify-content: center;
+  align-items: center;
+}
+.introTitle {
+  font-family: 'JalnanGothic';
+  font-weight: 400;
+  font-size: 5rem;
+  text-align: center;
+  color: black;
+}
+.introHr {
+  width: 15rem;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-top: 0.1rem solid silver;
+  color: inherit;
+}
+.introMain {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.introItems {
+  font-family: 'NanumBarunGothic';
+  display: inline-block;
+  vertical-align: middle;
+  width: 27rem;
+  height: 13rem;
+  /* margin: 2.2rem 1rem; */
+  /* background-color: aqua; */
+}
+.introSpan {
+  color: black;
+  font-size: 2.7rem;
+  font-weight: 700;
+  padding-right: 4.5rem;
+}
+.introCont {
+  font-size: 2.3rem;
+  color: black;
+}
+#link {
+  text-decoration: none;
+  color: black;
+}
+
+/* ---------- Profile ---------- */
+.myProfile {
+  display: flex;
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80rem;
+  height: 45rem;
+  border: 5px solid silver;
+  border-radius: 1rem;
+  box-shadow: 4px 4px silver;
+  overflow: visible;
+}
+.flipProfile {
+  /* background-color: aqua; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 18rem;
+  height: 45rem;
+  transform-style: preserve-3d;
+  transition: 300ms all ease-in;
+}
+.me {
+  width: 18rem;
+  margin-top: -70px;
+}
+.frontPhoto {
+  position: absolute;
+  z-index: 1;
+  /* top: 0; */
+  width: 100%;
+  /* position: relative; */
+  backface-visibility: hidden;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+.showSkill {
+  width: 100%;  
+}
+.clickMe {
+  background-color: rgba(250, 235, 215, 0.404);
+  border-radius: 1rem;
+  border: 2px solid silver;
+  padding: 0.3rem;
+  width: 10rem;
+  margin: auto;
+}
+.backSkill {
+  position: absolute;
+  z-index: 0;
+  /* top: 0; */
+  width: 100%;
+  height: 100%;
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+  /* padding-top: 100px; */
+}
+.flipProfile:hover, .flipProfInner {
+  transform: rotateY(180deg);
+}
+.frontSkill, .backendSkill, .gitSkill {
+  background-color: rgba(244, 239, 236, 0.115);
+  width: 16rem;
+  margin-left: 1rem;
+  border-radius: 1.5rem;
+  box-shadow: 2px 2px silver;
+}
+.frontH1, .backendH1, .gitH1 {
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.3rem;
+  /* background-color: antiquewhite; */
+}
+.frontHr, .backendHr, .gitHr {
+  width: 90%;
+  margin-top: -2rem;
+  border-top: 0.1rem solid silver;
+  color: inherit; 
+}
+.frontImg, .backendImg, .gitImg {
+  display: flex;
+  width: 16rem;
+  justify-content: center;
+  align-items: center;
+}
+.fronts, .backs {
+  display: inline-block;
+  width: 5rem;
+  height: 5rem;
+  padding: 0.2rem;
+}
+.gits {
+  display: inline-block;
+  width: 4rem;
+  height: 4rem;
+  padding: 0.5rem;
+}
+.profileDiv {
+  width: 60rem;
+  padding-left: 3.7rem;
+}
+.profile, .education {
+  display: block;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+.skillTitle {
+  font-family: 'JalnanGothic';
+  font-size: 3.5rem;
+  text-align: center;
+  margin-top: 1rem;
+  display: block;
+}
+.profileTitle, .eduTitle {
+  font-family: 'JalnanGothic';
+  font-size: 4rem;
+  display: block;
+  margin-bottom: 1rem;
+  /* background-color: gold; */
+}
+.profSub, .eduSub {
+  display: block;
+  height: 3rem;
+  font-size: 2.3rem;
+  margin-bottom: 0.5rem;
+  /* background-color: bisque; */
+}
+.profItem {
+  display: inline-block;
+  font-weight: bold;
+  width: 10rem;
+  /* background-color: skyblue; */
+}
+.eduDate {
+  display: inline-block;
+  width: 22rem;
+  vertical-align: top;
+  /* background-color: skyblue; */
+}
+.profItemSub, .eduName {
+  display: inline-block;
+  /* background-color: gray; */
+}
+#eduCol {
+  display: block;
+  /* background-color: aquamarine; */
+}
+#eduMaj {
+  display: block;
+  font-size: 1.3rem;
+  /* background-color: aqua; */
+}
+.profileSub {
+  padding-bottom: 0.5rem;
+  /* background-color: aqua; */
+}
+#item, #skills {
+  width: 10rem;
+  font-weight: 700;
+}
+#education {
+  font-size: 0.6em;
+  color: black;
+  margin: 0%;
+}
+a.introA {
+  text-decoration: none;
+  color: black;
+}
+
+/* ---------- Strength ---------- */
+.strength {
+  /* background-color: aqua; */
+  width: 90rem;
+  display: flex;
+}
+.strHr {
+  width: 15rem;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-top: 0.2rem solid silver;
+  color: inherit;
+}
+.strs {
+  background-color: rgb(234, 237, 238);
+  width: 29rem;
+  height: 31rem;
+  border: 5px solid silver;
+  border-radius: 0.5rem;
+  margin: 1rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+
+}
+.strs:hover {
+  border: 5px solid orange;
+}
+.num {
+  font-family: 'JalnanGothic';
+  font-size: 6rem;
+  display: block;
+  /* margin-bottom: 1rem; */
+}
+.keyword {
+  font-family: 'JalnanGothic';
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 1rem;
+  /* margin-bottom: 1rem;  */
+}
+.strExp {
+  font-size: 2.3rem;
+  display: block;
+  padding-bottom: 1rem;
+  /* background-color: aqua; */
+}

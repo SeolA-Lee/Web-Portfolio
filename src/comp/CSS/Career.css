@@ -1,0 +1,79 @@
+.careerArticle {
+  display: block;
+  width: 90rem;
+  margin-top: 10rem;
+  justify-content: center;
+  align-items: center;
+}
+.careerTitle {
+  font-family: 'JalnanGothic';
+  font-weight: 400;
+  font-size: 5rem;
+  text-align: center;
+  color: black;
+}
+.careerHr {
+  width: 15rem;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  border-top: 0.1rem solid silver;
+  color: inherit;
+}
+.careerMain {
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+}
+.careerItems {
+  font-family: 'NanumBarunGothic';
+  display: block;
+  /* vertical-align: middle; */
+  width: 80rem;
+  /* height: 13rem; */
+  padding-left: 15rem;
+  margin-bottom: 5rem;
+  /* background-color: aqua; */
+
+}
+.internTitle, .lcsTitle, .etcTitle {
+  font-family: 'JalnanGothic';
+  font-size: 3rem;
+  display: block;
+  margin-bottom: 1rem;
+}
+.internSub, .lcsSub, .etcSub {
+  display: block;
+  height: 3rem;
+  font-size: 2.3rem;
+  margin-bottom: 0.5rem;
+}
+.internDate {
+  display: inline-block;
+  width: 27rem;
+  vertical-align: top;
+  /* background-color: antiquewhite; */
+}
+.internExp {
+  display: inline-block;
+}
+.lcsDate {
+  display: inline-block;
+  width: 15rem;
+  vertical-align: top;
+  /* background-color: antiquewhite; */
+}
+.lcsExp {
+  display: inline-block;
+  width: 25rem;
+  /* background-color: beige; */
+}
+.lcsSource {
+  display: inline-block;
+  width: 22rem;
+  /* background-color: blue; */
+}
+.ectExp {
+  display: inline-block;
+  width: 20rem;
+  /* background-color: blue; */
+}

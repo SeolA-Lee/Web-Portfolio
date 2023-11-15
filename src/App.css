@@ -1,0 +1,224 @@
+@font-face {
+  font-family: 'NanumBarunGothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot');
+  src: url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.eot?#iefix') format('embedded-opentype'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.woff') format('woff'), url('//cdn.jsdelivr.net/font-nanumlight/1.0/NanumBarunGothicWeb.ttf') format('truetype');
+ }
+ @font-face {
+  font-family: 'JalnanGothic';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_231029@1.1/JalnanGothic.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+div {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-use-select: none;
+  user-select: none;
+}
+header {
+  position: fixed;
+  display: block;
+  top: 0;
+  right: 0;
+  left: 0;
+  font-size: 40px;
+  height: 60px;
+  line-height: 60px;
+}
+nav {
+  display: block;
+  float: right;
+}
+div {
+  display: block;
+}
+article {
+  display: block;
+}
+ol, ul {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+.contentWrapper {
+  font-family: 'NanumBarunGothic';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100dvh;
+  /* background: navy; */
+}
+
+/* ---------- My Portfolio Main ---------- */
+.myPortfolio {
+  display: block;
+}
+.myHeader {
+  background-color: white;
+  box-shadow: 0 1px 4px lightgray;
+}
+
+/* ---------- Header; LEE's Portfolio ---------- */
+.title {
+  display: inline-block;
+  font-weight: 700;
+  color: black;
+  /* color: hsla(0, 0%, 100%, .7); */
+  line-height: 2rem;
+  cursor: pointer;
+  margin-left: 1rem;
+}
+.mainTitle:link, .mainTitle:visited {
+  text-decoration: none;
+  color: black;
+}
+.mainTitle:hover, .mainTitle:active { 
+  /* background-color:white;  */
+  color: orange ;
+}
+
+/* ---------- Header; Navs ---------- */
+.mainNav {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 0 1rem;
+  font-weight: 700;
+  font-size: 1rem;
+  color: black;
+  line-height: 2rem;
+  cursor: pointer;
+}
+.mainMenu:link, .mainMenu:visited {
+  /* background-color:#616469;  */
+  /* padding: 10px 20px; */
+  margin: 20px;
+  text-decoration: none;
+  width:100%;
+  font-size: 1.3em;
+  color: black;
+}
+.mainMenu:hover, .mainMenu:active { 
+  /* background-color:white;  */
+  color: orange ;
+}
+
+/* ---------- Header; About Me ---------- */
+.meNavs {
+  display: inline-block;
+  height: 45px;
+ }
+.subMenu {
+  position: absolute;
+  top: 100%;
+  right: 25rem;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  padding: 14px;
+  display: flex;
+  flex-direction: column;
+}
+.subNavs {
+  font-size: 17px;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+}
+.subNavs:hover {
+  color: orange;
+}
+
+/* ---------- Home ---------- */
+.homeWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100dvh;
+    /* background: navy; */
+}
+.homeArticle {
+  width: 90rem;
+  padding-top: 60px;
+  margin: 0 auto;
+  text-align: center;
+  /* background-color: aqua; */
+}
+.mainImg {
+  width: 10rem;
+  margin-bottom: -0.5rem;
+  pointer-events: none;
+}
+.homePage {
+  font-family: 'JalnanGothic';
+  font-weight: 500;
+  font-size: 6rem;
+  padding-top: 1rem;
+  color: black;
+  /* background-color: aquamarine; */
+  /* word-break: keep-all; */
+}
+.homeHr {
+  display: block;
+  width: 10rem;
+  height: 0;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+  border: none;
+  border-top: 0.2rem solid silver;
+  color: inherit;
+  opacity: 1;
+}
+.hello {
+  font-family: 'NanumBarunGothic';
+
+  margin: 0 auto 2rem;
+  font-weight: 400;
+  font-size: 3rem;
+  color: black;
+  line-height: 1.5;
+}
+
+/* ----------------------------------------------- */
+
+
+/* @import url("https://fonts.googleapis.com/css2?family=Song+Myung&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+
+body {
+  font-family: "Nanum Pen Script";
+  background-color: lightgoldenrodyellow;
+  line-height: 1.5;
+  font-weight: bolder;
+  margin-left : 50px;
+  }
+#index{
+  font-size: 150px;
+  margin-left : 500px; 
+}
+.container {
+  display: grid;
+  grid-template-columns: 450px 1fr;
+}
+nav {
+  font-family: "Nanum Pen Script";
+  margin-left: 20px;
+  font-size: 100px;
+}
+main{
+  font-family: "Nanum Pen Script";
+  margin-left: 20px;
+  background-color: lightgoldenrodyellow;
+  font-size: 70px;
+}
+footer {
+  text-align: center;
+  background-color: gray;
+  color: white;
+  font-size: 100px;
+}
+
+
+} */
