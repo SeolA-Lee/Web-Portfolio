@@ -23,7 +23,7 @@ function App() {
   };
 
   return(
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div className="myPortfolio">
         <header className="myHeader">
           {/* Header Title */}
