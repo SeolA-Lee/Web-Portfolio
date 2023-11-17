@@ -6,7 +6,7 @@ const Visiting = () => {
         <div className="contentWrapper">
             <div className="visitingArticle">
                 <div className="visitingImg">
-                    <img src='/Imgs/visiting.svg' className='visitingSubImg' />
+                    <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/visiting.svg' className='visitingSubImg' />
                 </div>
                 <div className="visitingProj">
                     <div className="visitingTitle">Griffith University 방문학생</div>

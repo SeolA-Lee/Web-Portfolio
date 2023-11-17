@@ -6,7 +6,7 @@ const SecondProject = () => {
         <div className='contentWrapper'>
             <div className="secondArticle">
                 <div className="secondImg">
-                    <img src='/Imgs/second.svg' className='secondSubImg' />
+                    <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/second.svg' className='secondSubImg' />
                 </div>
                 <div className="secondProj">
                     <div className="secondTitle">S-Mall Website</div>

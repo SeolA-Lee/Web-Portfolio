@@ -6,7 +6,7 @@ const Club = () => {
         <div className="contentWrapper">
             <div className="clubArticle">
                 <div className="clubImg">
-                    <img src='/Imgs/club.svg' className='clubSubImg' />
+                    <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/club.svg' className='clubSubImg' />
                 </div>
                 <div className="clubProj">
                     <div className="clubTitle">OOO 개발 동아리</div>

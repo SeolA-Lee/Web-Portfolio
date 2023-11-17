@@ -6,7 +6,7 @@ const Contest = () => {
         <div className="contentWrapper">
             <div className="contestArticle">
                 <div className="contestImg">
-                    <img src='/Imgs/poster.svg' className='contestSubImg' />
+                    <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/poster.svg' className='contestSubImg' />
                 </div>
                 <div className="contestProj">
                     <div className="contestTitle">데이터 분석 &bull; 활용 경진대회</div>

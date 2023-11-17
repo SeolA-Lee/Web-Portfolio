@@ -6,7 +6,7 @@ const FirstProject = () => {
         <div className='contentWrapper'>
             <div className="firstArticle">
                 <div className="firstImg">
-                    <img src='/Imgs/first.svg' className='firstSubImg' />
+                    <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/first.svg' className='firstSubImg' />
                 </div>
                 <div className="firstProj">
                     <div className="firstTitle">Calender Application</div>

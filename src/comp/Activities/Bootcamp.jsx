@@ -6,7 +6,7 @@ const Bootcamp = () => {
         <div className="contentWrapper">
             <div className="bootArticle">
                 <div className="bootImg">
-                    <img src='/Imgs/bootcamp.svg' className='bootSubImg' />
+                    <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/bootcamp.svg' className='bootSubImg' />
                 </div>
                 <div className="bootProj">
                     <div className="bootTitle">XXX 부트캠프</div>

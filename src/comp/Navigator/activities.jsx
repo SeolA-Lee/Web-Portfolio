@@ -6,19 +6,19 @@ const activities = [
     {
         tab: "VisitingStudent",
         detail: "Visiting Student",
-        image: "/Imgs/visiting.svg",
+        image: "https://seola-lee.github.io/Web-Portfolio/Imgs/visiting.svg",
         content: <Visiting />
     },
     {
         tab: "Club",
         detail: "Club Activity",
-        image: "/Imgs/club.svg",
+        image: "https://seola-lee.github.io/Web-Portfolio/Imgs/club.svg",
         content: <Club />
     },
     {
         tab: "BootCamp",
         detail: "Boot Camp",
-        image: "/Imgs/bootcamp.svg",
+        image: "https://seola-lee.github.io/Web-Portfolio/Imgs/bootcamp.svg",
         content: <Bootcamp />
     }
 ];

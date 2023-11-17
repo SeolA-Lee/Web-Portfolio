@@ -8,7 +8,7 @@ const Profile = () => {
 
                 <div className='flipProfile'>
                     <div className='frontPhoto'>
-                        <img src='/Imgs/me.svg' className='me' />
+                        <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/me.svg' className='me' />
                         <div className='showSkill'>
                             <p className='clickMe'>Skill 보기</p>
                         </div>
@@ -19,28 +19,28 @@ const Profile = () => {
                             <h1 className='frontH1'>Frontend</h1>
                             <hr className='frontHr' />
                             <div className='frontImg'>
-                                <img src='/Imgs/SkillImg/HTML5.svg' className='fronts' />
-                                <img src='/Imgs/SkillImg/CSS3.svg' className='fronts' />
+                                <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/SkillImg/HTML5.svg' className='fronts' />
+                                <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/SkillImg/CSS3.svg' className='fronts' />
                             </div>
                             <div className='frontImg'>
-                                <img src='/Imgs/SkillImg/Javascript.svg' className='fronts' />
-                                <img src='/Imgs/SkillImg/React.svg' className='fronts' />
+                                <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/SkillImg/Javascript.svg' className='fronts' />
+                                <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/SkillImg/React.svg' className='fronts' />
                             </div>
                         </div>
                         <div className='backendSkill'>
                             <h1 className='backendH1'>Backend</h1>
                             <hr className='backendHr' />
                             <div className='backendImg'>
-                                <img src='/Imgs/SkillImg/Python.svg' className='backs' />
-                                <img src='/Imgs/SkillImg/Java.svg' className='backs' />
+                                <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/SkillImg/Python.svg' className='backs' />
+                                <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/SkillImg/Java.svg' className='backs' />
                             </div>
                         </div>
                         <div className='gitSkill'>
                             <h1 className='gitH1'>Version Control</h1>
                             <hr className='gitHr' />
                             <div className='gitImg'>
-                                <img src='/Imgs/SkillImg/git.svg' className='gits' />
-                                <img src='/Imgs/SkillImg/GitHub.svg' className='gits' />
+                                <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/SkillImg/git.svg' className='gits' />
+                                <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/SkillImg/GitHub.svg' className='gits' />
                             </div>
                         </div>
                     </div>
