@@ -39,20 +39,27 @@ function App() {
                 <Link className="mainMenu" to={"/introduction"}>About Me</Link> 
                 {isHovered && (
                   <div className="subMenu">
-                    <Link className="subNavs" to={"/introduction/profile"}>Profile</Link>
-                    <Link className="subNavs" to={"/introduction/strength"}>Strength</Link>
+                    <Link className="subNavs" to={"/profile"}>Profile</Link>
+                    <hr className="subHr" />
+                    <Link className="subNavs" to={"/strength"}>Strength</Link>
                   </div>
                 )}
             </div>
             
             {/* Careers */}
-            <Link className="mainMenu" to={"/careers"}>Careers</Link>
+            <div className="meNavs">
+              <Link className="mainMenu" to={"/careers"}>Careers</Link>
+            </div>
 
             {/* Projects */}
-            <Link className="mainMenu" to={"/projects"}>Projects</Link>
+            <div className="meNavs">
+              <Link className="mainMenu" to={"/projects"}>Projects</Link>
+            </div>
 
             {/* Activities */}
-            <Link className="mainMenu" to={"/activities"}>Activities</Link>
+            <div className="meNavs">
+              <Link className="mainMenu" to={"/activities"}>Activities</Link>
+            </div>
           </nav>
         </header>  
         
@@ -61,8 +68,8 @@ function App() {
             <Route path="/" Component={Home} />
             {/* About Me */}
             <Route path="/introduction" Component={IntroHome} />  
-              <Route path="/introduction/profile" Component={Profile} />
-              <Route path="/introduction/strength" Component={Strength} />
+              <Route path="/profile" Component={Profile} />
+              <Route path="/strength" Component={Strength} />
             
             {/* Careers */}
             <Route path="/careers" Component={Careers} />

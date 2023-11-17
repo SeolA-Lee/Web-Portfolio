@@ -19,7 +19,6 @@
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://seola-lee.github.io/Web-Portfolio",
   "eslintConfig": {
     "extends": [
       "react-app",
