@@ -4,7 +4,7 @@ const Home = () => {
     return(
         <div className='homeWrapper'>
             <article className='homeArticle'>
-                <img src='/Imgs/main.svg' className='mainImg'/>
+                <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/main.svg' className='mainImg'/>
                 <div className='homePage'>
                     이설아's Web Portfolio
                 </div>
