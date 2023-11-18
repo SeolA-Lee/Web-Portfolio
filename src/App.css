@@ -76,7 +76,7 @@ ol, ul {
 }
 .mainTitle:hover, .mainTitle:active { 
   /* background-color:white;  */
-  color: orange ;
+  color: darkblue ;
 }
 
 /* ---------- Header; Navs ---------- */
@@ -118,7 +118,7 @@ ol, ul {
 }
 .mainMenu:hover, .mainMenu:active { 
   /* background-color:white;  */
-  color: orange ;
+  color: darkblue ;
 }
 
 /* ---------- Header; About Me ---------- */
@@ -147,7 +147,7 @@ ol, ul {
   border: 1px solid silver;
 }
 .subNavs:hover {
-  color: orange;
+  color: darkblue;
 }
 
 /* ---------- Home ---------- */
@@ -158,12 +158,14 @@ ol, ul {
   min-height: 100dvh;
   /* background: navy; */
 }
+#mainHomepage {
+  background: aliceblue;
+}
 .homeArticle {
   width: 90rem;
-  padding-top: 60px;
+  padding-top: 70px;
   margin: 0 auto;
   text-align: center;
-  /* background-color: aqua; */
 }
 .mainImg {
   width: 10rem;
@@ -192,54 +194,32 @@ ol, ul {
   opacity: 1;
 }
 .hello {
+  display: flex;
   font-family: 'NanumBarunGothic';
-
   margin: 0 auto 2rem;
   font-weight: 400;
   font-size: 3rem;
   color: black;
   line-height: 1.5;
+  justify-content: center;
+  /* background-color: aqua; */
 }
-
-/* ----------------------------------------------- */
-
-
-/* @import url("https://fonts.googleapis.com/css2?family=Song+Myung&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
-
-body {
-  font-family: "Nanum Pen Script";
-  background-color: lightgoldenrodyellow;
-  line-height: 1.5;
-  font-weight: bolder;
-  margin-left : 50px;
+.hello1 {
+  font-family: 'NanumBarunGothic';
+  animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+  border-right: 3.5px solid;
+  white-space: nowrap;
+  /* white-space: pre-line; */
+  overflow: hidden;
+  width: auto;
+  height: 3.7rem;
+  /* background-color: aquamarine; */
+}
+@keyframes typing {
+  from { width: 0; }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
   }
-#index{
-  font-size: 150px;
-  margin-left : 500px; 
 }
-.container {
-  display: grid;
-  grid-template-columns: 450px 1fr;
-}
-nav {
-  font-family: "Nanum Pen Script";
-  margin-left: 20px;
-  font-size: 100px;
-}
-main{
-  font-family: "Nanum Pen Script";
-  margin-left: 20px;
-  background-color: lightgoldenrodyellow;
-  font-size: 70px;
-}
-footer {
-  text-align: center;
-  background-color: gray;
-  color: white;
-  font-size: 100px;
-}
-
-
-} */

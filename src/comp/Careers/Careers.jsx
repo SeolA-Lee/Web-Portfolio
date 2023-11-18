@@ -3,7 +3,7 @@ import '../CSS/Career.css';
 
 const Careers = () => {
     return(
-        <div className='contentWrapper'>
+        <div className='contentWrapper' id='careerPage'>
             <article className='careerArticle'>
                 <div className='careerTitle'>CAREERS</div>
                 <hr className='careerHr' />

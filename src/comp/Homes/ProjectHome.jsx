@@ -14,7 +14,7 @@ const ProjectHome = () => {
 
     return(
         // 간략히 보는 Projects & Contest
-        <div className='homeWrapper'>
+        <div className='homeWrapper' id="projectPage">
             <article className='projArticle'>
                 <div className='projTitle'>PROJECTS & CONTEST</div>
                 <hr className='projHr' />
@@ -24,7 +24,7 @@ const ProjectHome = () => {
                             <button onClick={contentChange} value={index} className="projBtn">
                                 <img src={projects.image} value={index} className="projImg"/>
                                 <hr className="btnHr"/>
-                                {projects.detail}
+                                <div className="btnDiv">{projects.detail}</div>
                             </button>
                         </Link>
                     ))}

@@ -3,9 +3,8 @@ import '../CSS/Intro.css';
 
 const Profile = () => {
     return(
-        <div className='contentWrapper'> 
+        <div className='contentWrapper' id='introPage'> 
             <article className='myProfile'>
-
                 <div className='flipProfile'>
                     <div className='frontPhoto'>
                         <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/me.svg' className='me' />
@@ -22,7 +21,7 @@ const Profile = () => {
                                 <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/SkillImg/HTML5.svg' className='fronts' />
                                 <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/SkillImg/CSS3.svg' className='fronts' />
                             </div>
-                            <div className='frontImg'>
+                            <div className='frontImg' id='skillBottom'>
                                 <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/SkillImg/Javascript.svg' className='fronts' />
                                 <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/SkillImg/React.svg' className='fronts' />
                             </div>
@@ -30,7 +29,7 @@ const Profile = () => {
                         <div className='backendSkill'>
                             <h1 className='backendH1'>Backend</h1>
                             <hr className='backendHr' />
-                            <div className='backendImg'>
+                            <div className='backendImg' id='skillBottom'>
                                 <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/SkillImg/Python.svg' className='backs' />
                                 <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/SkillImg/Java.svg' className='backs' />
                             </div>
@@ -38,7 +37,7 @@ const Profile = () => {
                         <div className='gitSkill'>
                             <h1 className='gitH1'>Version Control</h1>
                             <hr className='gitHr' />
-                            <div className='gitImg'>
+                            <div className='gitImg' id='skillBottom'>
                                 <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/SkillImg/git.svg' className='gits' />
                                 <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/SkillImg/GitHub.svg' className='gits' />
                             </div>

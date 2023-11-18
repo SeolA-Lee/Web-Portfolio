@@ -3,7 +3,7 @@ import '../CSS/Project.css' ;
 
 const SecondProject = () => {
     return(
-        <div className='contentWrapper'>
+        <div className='contentWrapper' id="projectPage">
             <div className="secondArticle">
                 <div className="secondImg">
                     <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/second.svg' className='secondSubImg' />

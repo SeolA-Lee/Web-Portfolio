@@ -3,7 +3,7 @@ import '../CSS/Project.css' ;
 
 const Contest = () => {
     return(
-        <div className="contentWrapper">
+        <div className="contentWrapper" id="projectPage">
             <div className="contestArticle">
                 <div className="contestImg">
                     <img src='https://seola-lee.github.io/Web-Portfolio/Imgs/poster.svg' className='contestSubImg' />

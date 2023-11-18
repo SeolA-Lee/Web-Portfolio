@@ -4,7 +4,7 @@ import '../CSS/Intro.css'
 const IntroHome = () => {
     return(
         // 간략히 보는 About Me
-        <div className='homeWrapper'>
+        <div className='homeWrapper' id='introPage'>
             <article className='introArticle'>
                 <div className='introTitle'>ABOUT ME</div>
                 <hr className='introHr' />

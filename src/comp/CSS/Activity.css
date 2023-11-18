@@ -1,8 +1,19 @@
+#activityPage {
+  background-color: aliceblue;
+}
 /* ---------- ActivityHome ---------- */
 .actArticle {
   display: block;
   margin-top: 20px;
   /* background-color: aqua; */
+}
+.activityBorder {
+  background-color: white;
+  padding: 1rem;
+  padding-top: 3rem;
+  border-radius: 1rem;
+  border: 0.5rem solid silver;
+  box-shadow: 0.5rem 0.5rem 0.5rem silver;
 }
 .actTitle {
   font-family: 'JalnanGothic';
@@ -18,11 +29,18 @@
   border-top: 0.1rem solid silver;
   color: inherit;
 }
-.actNav {
-  width: 95%;
+.actMainNav {
+  width: 100%;
   margin: 0 auto;
   display: flex;
   justify-content: center;
+}
+.actNav {
+  width: 24.5rem;
+  margin: 0 auto;
+  display: block;
+  justify-content: center;
+  /* background-color: yellow; */
 }
 .actBtn {
   background-color: transparent;
@@ -35,10 +53,13 @@
   border: 5px solid silver;
   border-radius: 0.5rem;
   cursor: pointer;
+  background-color: white;
 }
 .actBtn:hover {
   box-sizing: border-box;
-  border: 5px solid orange ;
+  border: 5px solid darkblue ;
+  position: relative;
+  bottom: 1rem;
 }
 .actBtn > .actImg {
   width: 100%;
@@ -52,7 +73,7 @@
 /* ---------- Visiting ---------- */
 .visitingArticle {
   display: block;
-  width: 95rem;
+  width: 110rem;
   margin-top: 6rem;
   margin-bottom: 3rem;
   justify-content: center;
@@ -98,6 +119,7 @@
 .visitingCont {
   display: inline-block;
   width: 10rem;
+  font-weight: bolder;
   /* background-color: gray; */
   vertical-align: top;
 }
@@ -126,15 +148,18 @@
   width: 23rem;
   height: 4rem;
   margin: 0.7rem;
+  margin-top: 1.5rem;
   font-size: 2rem;
   font-weight: bold;
   border-radius: 0.5rem;
   border: 3px solid silver;
-  background-color: aliceblue;
+  background-color: white;
   cursor: pointer;
 }
 .otherAct:hover {
-  border: 3px solid orange;
+  position: relative;
+  top: 0.5rem;
+  border: 3px solid darkblue;
 }
 .otherLink {
   text-decoration: none;
@@ -144,7 +169,7 @@
 /* ---------- club ---------- */
 .clubArticle {
   display: block;
-  width: 95rem;
+  width: 110rem;
   margin-top: 6rem;
   margin-bottom: 3rem;
   justify-content: center;
@@ -157,7 +182,7 @@
   height: 100%;
   vertical-align: top;
   margin-top: -1rem;
-  margin-left: -5rem;
+  /* margin-left: -5rem; */
   margin-right: -5rem;
   /* background-color: aquamarine; */
 }
@@ -193,7 +218,7 @@
 .clubCont {
   display: inline-block;
   width: 10rem;
-  /* background-color: gray; */
+  font-weight: bolder;
   vertical-align: top;
 }
 .clubList {
@@ -220,7 +245,7 @@
 /* ---------- bootcamp ---------- */
 .bootArticle {
   display: block;
-  width: 95rem;
+  width: 110rem;
   margin-top: 6rem;
   margin-bottom: 3rem;
   justify-content: center;
@@ -233,7 +258,6 @@
   height: 100%;
   vertical-align: top;
   margin-top: -3rem;
-  margin-left: -5rem;
   margin-right: -5.5rem;
   /* background-color: aquamarine; */
 }
@@ -269,7 +293,7 @@
 .bootCont {
   display: inline-block;
   width: 10rem;
-  /* background-color: gray; */
+  font-weight: bolder;
   vertical-align: top;
 }
 .bootList {

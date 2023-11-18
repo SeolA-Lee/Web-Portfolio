@@ -13,17 +13,17 @@ const ActivityHome = () => {
 
     return(
         // 간략히 보는 Other Activities
-        <div className='homeWrapper'>
+        <div className='homeWrapper' id="activityPage">
             <article className='actArticle'>
                 <div className='actTitle'>OTHER ACTIVITIES</div>
                 <hr className='actHr' />
-                <div className="actNav">
+                <div className="actMainNav">
                     {activities.map((activities, index) => (
                         <Link to={`/activities/${activities.tab}`}>
                             <button onClick={contentChange} value={index} className="actBtn">
                                 <img src={activities.image} value={index} className="actImg"/>
                                 <hr className="btnHr"/>
-                                {activities.detail}
+                                <div className="btnDiv">{activities.detail}</div>
                             </button>
                         </Link>
                     ))}
