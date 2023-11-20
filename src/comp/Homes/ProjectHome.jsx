@@ -26,11 +26,17 @@ const ProjectHome = () => {
                                 <hr className="btnHr"/>
                                 <div className="btnDiv">{projects.detail}</div>
                             </button>
+                            <div className="projSubDate">
+                                <div className="projDetail">{projects.detail}</div>
+                                <div className="projPTitle">&#35; Period</div>
+                                <div className="projPeriod">&nbsp;&nbsp; {projects.date}</div>
+                                <div className="projTTitle">&#35; Tech</div>
+                                <div className="projTech">&nbsp;&nbsp; {projects.tech}</div>
+                            </div>  
                         </Link>
                     ))}
                 </div>
             </article>
-
         </div>
     );
 }

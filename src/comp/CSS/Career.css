@@ -14,11 +14,15 @@
   font-size: 5rem;
   text-align: center;
   color: black;
+  position: sticky;
+  top: 10rem;
 }
 .careerHr {
   width: 15rem;
-  margin-top: 20px;
-  margin-bottom: 40px;
+  position: sticky;
+  top: 17.5rem;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
   border-top: 0.1rem solid silver;
   color: inherit;
 }
@@ -26,14 +30,17 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  /* background-color: aquamarine; */
+  padding-bottom: 13.8rem;
 }
 .careerItems {
   font-family: 'NanumBarunGothic';
-  display: block;
-  /* vertical-align: middle; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 70rem;
-  /* height: 13rem; */
+  height: 20rem;
+  position: sticky;
+  top: 20rem;
   padding-top: 3rem;
   padding-bottom: 3rem;
   padding-left: 10rem;
@@ -44,7 +51,6 @@
   border-radius: 1rem;
   box-shadow: 1rem 1rem 0.7rem silver;
   background-color: white;
-
 }
 .internTitle, .lcsTitle, .etcTitle {
   font-family: 'JalnanGothic';
